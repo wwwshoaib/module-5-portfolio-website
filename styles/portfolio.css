@@ -48,6 +48,9 @@ padding: 15px 35px;
 /* header related styles */
 .header {
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 /* style related to banner */
 
@@ -55,9 +58,60 @@ padding: 15px 35px;
     padding: 30px 30px 30px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .banner-profile-pic {
     width: 500px;
     height: 650px;
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+.banner-description {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* about */
+
+.section-title {
+    color: var(--dark-01, #181818);
+text-align: center;
+font-family: Open Sans;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.banner-description {
+    color:  #757575;
+text-align: center;
+
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+} 
+
+
+
+.about {
+    width: 1000px;
+height: 550px;
+flex-shrink: 0; 
+border-radius: 10px;
+background: #FFF8F3;
+margin: 100px 100px;
+padding: 50px;
+text-align: center;
+    
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
 }
