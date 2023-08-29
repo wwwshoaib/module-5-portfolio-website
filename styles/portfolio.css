@@ -1,0 +1,45 @@
+/* common css styles */
+body {
+    font-family: 'EB Garamond', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+/* nav related styles */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title {
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+}
+
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+.btn-primary {
+    font-size: 20px;
+font-style: normal;
+font-weight: 700;
+color: white;
+border-radius: 5px;
+background: #FD6E0A;
+padding: 15px 35px;
+    
+}
